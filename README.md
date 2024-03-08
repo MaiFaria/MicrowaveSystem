@@ -1,4 +1,4 @@
-# Sistema para console simulando funcionalidades de um micro-ondas :)
+# 🍗 🍖 Sistema para console simulando funcionalidades de um micro-ondas
 
 Pequeno projeto que visa simular programas de aquecimento, como:
 
@@ -7,16 +7,16 @@ Pequeno projeto que visa simular programas de aquecimento, como:
 - Programas pré-definidos
 - Cadastrar um novo programa
 
-## Frameworks utilizados
+## 🚀 Frameworks utilizados
 Consulte **[Implantação](-#Implantacao)** para saber como implantar o projeto.
 
 - Estará descrito por projeto quais frameworks deverão ser baixados para utilização.
 
-### Pré-Requisitos
+### ‼️ Pré-Requisitos
 - .Net 7.0
 - Visual Studio 2022
 
-### Instruções 
+### 📋 Instruções 
 Para inicialização do projeto:
 
 - Abrir terminar em projeto **console**
@@ -63,7 +63,22 @@ Neste programa o sistema permite que o usuário crie um programa de aquecimento:
 - O template novo não poderá ser excluído.
 - O usuário pode pausar e cancelar/continuar a operação do template salvo durante o processo.
 
-## Implantação
+# ⚙️ Executando os testes
+
+Foi implementado **Testes de validações** para:
+
+## Micro-ondas
+- Criacão de serviço de micro-ondas com template;
+- Criacão de serviço de micro-ondas sem template;
+- Tempo válido e inválido;
+- Potência válida e inválida.
+
+## Templates - Cadastro de Programas pré-definidos
+- Criação de template;
+- Template com instruções;
+- Template com instruções nulas.
+
+## 📦 Implantação
 ### Projeto Console v.7.0.0
 - Microsoft.Extensions.DependencyInjection
 ### Projeto Core
