@@ -1,4 +1,6 @@
-# 🍗 🍖 Sistema para console simulando funcionalidades de um micro-ondas
+## 🍗 🍖 Microwave System
+
+### Sistema para console simulando funcionalidades de um micro-ondas
 
 Pequeno projeto que visa simular programas de aquecimento, como:
 
