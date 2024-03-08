@@ -8,7 +8,7 @@ Pequeno projeto que visa simular programas de aquecimento, como:
 - Cadastrar um novo programa
 
 ## Frameworks utilizados
-Consulte **[Implantação](-Implantacao)** para saber como implantar o projeto.
+Consulte **[Implantação](-#Implantação)** para saber como implantar o projeto.
 
 - Estará descrito por projeto quais frameworks deverão ser baixados para utilização.
 
@@ -63,7 +63,7 @@ Neste programa o sistema permite que o usuário crie um programa de aquecimento:
 - O template novo não poderá ser excluído.
 - O usuário pode pausar e cancelar/continuar a operação do template salvo durante o processo.
 
-## Implantacao
+## Implantação
 ### Projeto Console v.7.0.0
 - Microsoft.Extensions.DependencyInjection
 ### Projeto Core
