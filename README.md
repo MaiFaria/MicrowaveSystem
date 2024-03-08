@@ -94,4 +94,4 @@ Foi implementado **Testes de validações** para:
 - Microsoft.NET.Test.Sdk v.17.5.0
 - Moq v.4.13.0
 - xunit v.2.4.2
-- xunit.runner,visualstudio v.2.4.5
+- xunit.runner.visualstudio v.2.4.5
