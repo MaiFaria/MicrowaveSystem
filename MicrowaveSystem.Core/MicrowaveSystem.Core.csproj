@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Enumerators\" />
+    <None Remove="UseCases\" />
+    <None Remove="UseCases\ServiceHandlers\" />
+    <None Remove="UseCases\Contracts\" />
+    <None Remove="Utils\" />
+    <None Remove="Validations\" />
+    <None Remove="Contexts\" />
+    <None Remove="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Enumerators\" />
+    <Folder Include="UseCases\" />
+    <Folder Include="UseCases\ServiceHandlers\" />
+    <Folder Include="UseCases\Contracts\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Validations\" />
+    <Folder Include="Contexts\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Utils\MicrowaveTimer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+  </ItemGroup>
+</Project>
