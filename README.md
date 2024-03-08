@@ -10,10 +10,9 @@ Pequeno projeto que visa simular programas de aquecimento, como:
 ## Frameworks utilizados
 Consulte **[Implantação](-Implantação)** para saber como implantar o projeto.
 
-Estará descrito por projeto quais frameworks deverão ser baixados para utilização.
+- Estará descrito por projeto quais frameworks deverão ser baixados para utilização.
 
 ### Pré-Requisitos
-
 - .Net 7.0
 - Visual Studio 2022
 
@@ -58,7 +57,7 @@ Neste programa o sistema possui **templates** salvos, onde irá mostrar as opç�
 - Para escolha o usuário deverá informar o **cacactere especial** para identicação.
 - O usuário pode pausar e cancelar/continuar a operação durante o processo.
 
-##ProgramRegistration
+## ProgramRegistration
 Neste programa o sistema permite que o usuário crie um programa de aquecimento:
 - Fazendo com o que o mesmo fique salvo nos **templates** de programas pré-definidos.
 - O template novo não poderá ser excluído.
